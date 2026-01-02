@@ -1,33 +1,3 @@
->[!IMPORTANT]
->**🚨 Notice: Project No Longer Maintained 🚨**
->
->As of **Nov 5th, 2024**, this project is no longer maintained by the original developers. No further updates, bug fixes, or support will be provided.
->
->- **Pull Requests and Issues**: We will not be reviewing or merging pull requests, nor responding to issues or discussions.
->
->- **Forking and Future Development**: In accordance with the [GPL-3.0 License](LICENSE), you are encouraged to **fork this repository** to continue development independently. You are free to modify, distribute, and release your own versions under the same license.
->
->- **Disclaimer of Liability**:
->  - **"As-Is" Basis**: This software is provided on an "as-is" basis without any warranties or conditions of any kind, either express or implied.
->  - **No Liability**: The original maintainers shall not be liable for any claims, damages, or other liabilities arising from the use, modification, or distribution of this software.
->  - **User Responsibility**: Users and developers who choose to use or fork this project assume all risks and responsibilities associated with its use and further development.
->
->For more information, please refer to the [LICENSE](LICENSE) file.
-
-[![Latest Release](https://img.shields.io/github/v/release/Ivy-Apps/ivy-wallet)](https://github.com/Ivy-Apps/ivy-wallet/releases)
-[![APK](https://github.com/Ivy-Apps/ivy-wallet/actions/workflows/apk.yml/badge.svg)](https://github.com/Ivy-Apps/ivy-wallet/actions/workflows/apk.yml)
-[![Telegram Group](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+ETavgioAvWg4NThk)
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![GitHub Repo stars](https://img.shields.io/github/stars/Ivy-Apps/ivy-wallet?style=social)](https://github.com/Ivy-Apps/ivy-wallet/stargazers)
-[![Fork Ivy Wallet](https://img.shields.io/github/forks/Ivy-Apps/ivy-wallet?logo=github&style=social)](https://github.com/Ivy-Apps/ivy-wallet/fork)
-
-# [Ivy Wallet: money manager](https://play.google.com/store/apps/details?id=com.ivy.wallet)
-
-|                                                                                                            |                                                                                                            |                                                                                                            |                                                                                                            |
-|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|
-| ![1](https://user-images.githubusercontent.com/5564499/189540998-4d6cdcd3-ab4d-40f7-85d4-c82fe8a017d1.png) | ![2](https://user-images.githubusercontent.com/5564499/189541011-1ebbd8b6-50fe-432a-91e2-59206efe99ce.png) | ![3](https://user-images.githubusercontent.com/5564499/189541023-35e7f163-d639-4466-9a91-c56890d5a28e.png) | ![4](https://user-images.githubusercontent.com/5564499/189541027-d352314c-fd5c-43eb-82ad-4aba14c7b0fa.png) |
-| ![5](https://user-images.githubusercontent.com/5564499/189541030-1a0d7948-33af-420b-b126-936d0211c93f.png) | ![6](https://user-images.githubusercontent.com/5564499/189541035-621c4511-5ec7-4d3f-b08e-925d8da95472.png) | ![7](https://user-images.githubusercontent.com/5564499/189541127-7adf5bfa-0652-461c-80f1-076b7179eb6c.png) | ![8](https://user-images.githubusercontent.com/5564499/189541040-7cab633e-be4c-40b2-a2c6-890a15edf805.png) |
 
 Ivy Wallet is a free and open source **money management android app**. It's written using **100% Kotlin and Jetpack Compose**. It's designed to help you keep track of your personal finances with ease.
 
@@ -47,10 +17,9 @@ Ivy Wallet may lack some of the features you're looking for, but it truly shines
 
 <a href='https://play.google.com/store/apps/details?id=com.ivy.wallet&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="323" height="125"/></a>
 
-> Join our **[private Telegram Community](https://t.me/+ETavgioAvWg4NThk)**.
 
 > To support our free open source project, please give it a star. ⭐
-> This means a lot to us. Thank you so much! [![GitHub Repo stars](https://img.shields.io/github/stars/Ivy-Apps/ivy-wallet?style=social)](https://github.com/Ivy-Apps/ivy-wallet/stargazers)
+> This means a lot to us. Thank you so much!
 
 ## Project Requirements
 
@@ -117,55 +86,7 @@ Make sure to check out our short **[Developer Guidelines 🏗️](docs/Guideline
 
 ## Contribute
 
-**Want to contribute?** See **[CONTRIBUTING.md](/CONTRIBUTING.md)** [![Fork Ivy Wallet](https://img.shields.io/github/forks/Ivy-Apps/ivy-wallet?logo=github&style=social)](https://github.com/Ivy-Apps/ivy-wallet/fork)
-
-### Contributors Wall:
-
-<a href="https://github.com/ILIYANGERMANOV/ivy-wallet/graphs/contributors">
-  <img alt="contributors graph" src="https://contrib.rocks/image?repo=Ivy-Apps/ivy-wallet" />
-</a>
-<br>
-<br>
-
-_Note: It may take up to 24 hours for the [contrib.rocks](https://contrib.rocks/preview?repo=Ivy-Apps%2Fivy-wallet) plugin to update._ 
-
-**P.S.** You'll also be recognized in a special "Contributors" section. We salute you! 👏
-
-## Creative Contributors
-
-Folks that helped Ivy Wallet in a non-dev creative ways that can't be captured on GitHub.
-
-### Creative Contributors Wall:
-
-<!-- <div align="center">
-  <a href="URL_TO_CONTRIBUTION">
-    <img src="URL_TO_PERSONS_PHOTO" width="100px;" alt="PERSON'S PHOTO"/><br>
-    <strong>USERNAME</strong><br>
-    <small>MESSAGE_FOR_THEIR_CONTRIBUTION</small>
-  </a>
-</div> -->
-
-<div style="text-align: center">
-    <img src="https://avatars.githubusercontent.com/u/62771583?v=4" width="100px;" alt="Stefan Ilijev - Desinger"/><br>
-    <strong>Stefan Ilijev</strong><br>
-    <small>Co-founder and designer of Ivy Wallet. Created the <a href="https://www.figma.com/file/kSwIa07jcHEHZXo6rzx7dn/Design-System?node-id=0%3A1&mode=dev">Ivy design system</a>.</small>
-    <br/>
-    <br/>
-</div>
-
-<div style="text-align: center">
-    <img src="https://avatars.githubusercontent.com/u/86833171?v=4" width="100px;" alt="Aditya [ADX]"/><br>
-    <strong><a href="https://github.com/adx69" >Aditya</a> </strong><br>
-    <br/>
-</div>
-
-<div style="text-align: center">
-    <img src="https://avatars.githubusercontent.com/u/130169485?v=4" width="100px;" alt="Shymom [SSI]"/><br>
-    <strong><a href="https://github.com/SHYMOM" >Shymom</a> </strong><br>
-    <br/>
-</div>
-
-
+**Want to contribute?** See **[CONTRIBUTING.md](/CONTRIBUTING.md)**
 ## Community Projects
 
 > ⚠️ Disclaimer: The community projects listed are independently developed and not affiliated with Ivy Apps Ltd. Consequently, we cannot vouch for their functionality, security or intentions. Your engagement with these projects is solely at your own discretion and risk. Ivy Apps Ltd explicitly disclaims any warranties, express or implied, and shall not be held liable for any damages or losses resulting from the use of these community-developed projects.
