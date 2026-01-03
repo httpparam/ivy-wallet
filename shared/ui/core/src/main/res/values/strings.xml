@@ -109,6 +109,7 @@
     <string name="share_ivy">Share Ivy</string>
     <string name="reports">Reports</string>
     <string name="loans">Loans</string>
+    <string name="cards">Cards</string>
     <string name="set_currency">Set currency</string>
     <string name="no_transactions">No transactions</string>
     <string name="no_transactions_description">You don\'t have any transactions for %1$s.\nYou can add one by tapping the \"+\" button.</string>
@@ -249,7 +250,6 @@
     <string name="hide_income">Hide income</string>
     <string name="hide_income_description">Tap on the hidden income to reveal it for 5s</string>
     <string name="other">Other</string>
-    <string name="rate_us_on_google_play">Rate us on Google Play</string>
     <string name="share_ivy_wallet">Share Ivy Wallet</string>
     <string name="product">Product</string>
     <string name="danger_zone">Danger zone</string>
@@ -396,9 +396,9 @@
     <string name="share_with_friends">Share with friends</string>
     <string name="make_a_report_description">Generate detailed reports to gain valuable insights into your income and spending. Filter your transactions by type, time period, category, accounts, amount, keywords, and more to better manage your finances.</string>
     <string name="make_a_report">Generate a report</string>
-    <string name="make_ivy_wallet_better_description">Do you want to help improve Ivy Wallet? Please write us a review!\nYour feedback is the key to implementing the features you need.\nIt also helps us rank higher in the Play Store, allowing us to invest more in the product isteand of marketing.\n\nWe appreciate your support!\nThe Ivy Team</string>
+    <string name="make_ivy_wallet_better_description">Do you want to help improve Ivy Wallet? Please share your feedback!\nYour feedback is the key to implementing the features you need.\n\nWe appreciate your support!\nThe Ivy Team</string>
     <string name="we_need_your_help">We need your help!</string>
-    <string name="we_need_your_help_description">We need your support to continue improving the app. Please share Ivy Wallet with your friends and family, and consider leaving a review on the Google Play Store. Your contributions will help us continue our mission.</string>
+    <string name="we_need_your_help_description">We need your support to continue improving the app. Please share Ivy Wallet with your friends and family. Your contributions will help us continue our mission.</string>
     <string name="ivy_wallet_is_opensource">Ivy Wallet is open-source!</string>
     <string name="ivy_wallet_is_opensource_description">Ivy Wallet\'s code is open and available to everyone. We believe that transparency and ethics are essential for any software product. If you appreciate our work and want to help improve the app, you can contribute to our public GitHub repository.</string>
     <string name="contribute">Contribute</string>

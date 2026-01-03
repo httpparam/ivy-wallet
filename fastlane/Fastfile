@@ -23,7 +23,7 @@ platform :android do
         )
     end
 
-    desc "Builds release app bundle (AAB) for the Google Play Store."
+    desc "Builds release app bundle (AAB)."
     lane :production_build do
         gradle(
             task: "clean"
@@ -35,7 +35,7 @@ platform :android do
         )
     end
 
-    desc "Releases a generated AAB to Google PlayStore's Internal Testing"
+    desc "Releases a generated AAB (Google Play functionality removed)"
     lane :internal_release do
         supply(
             track: "internal",

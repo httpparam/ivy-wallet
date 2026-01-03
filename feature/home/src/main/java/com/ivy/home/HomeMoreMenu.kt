@@ -492,20 +492,11 @@ private fun QuickAccess(
         ) {
             Spacer(Modifier.weight(1f))
 
-            val context = LocalContext.current
-//        MoreMenuButton(
-//            icon = R.drawable.home_more_menu_reports,
-//            label = "Charts"
-//        ) {
-//            ivyContext.navigateTo(Screen.Charts)
-//        }
-
-            val rootScreen = rootScreen()
             MoreMenuButton(
-                icon = R.drawable.home_more_menu_share,
-                label = stringResource(R.string.share_ivy)
+                icon = R.drawable.home_more_menu_cards,
+                label = stringResource(R.string.cards),
             ) {
-                rootScreen.shareIvyWallet()
+                // Placeholder for cards feature
             }
 
             Spacer(Modifier.weight(1f))

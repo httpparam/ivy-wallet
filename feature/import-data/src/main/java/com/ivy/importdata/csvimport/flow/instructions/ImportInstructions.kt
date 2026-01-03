@@ -33,6 +33,7 @@ import androidx.compose.ui.unit.dp
 import com.ivy.design.l0_system.UI
 import com.ivy.design.l0_system.style
 import com.ivy.importdata.csvimport.flow.ImportSteps
+import com.ivy.legacy.Constants
 import com.ivy.legacy.domain.deprecated.logic.csv.model.ImportType
 import com.ivy.legacy.utils.drawColoredShadow
 import com.ivy.navigation.navigation
@@ -335,9 +336,7 @@ private fun App(
         modifier = Modifier
             .padding(horizontal = 32.dp)
             .clickable {
-                rootScreen.openGooglePlayAppPage(
-                    appId = importType.appId()
-                )
+                rootScreen.openUrlInBrowser(url = Constants.URL_IVY_WALLET_REPO)
             },
         verticalAlignment = Alignment.CenterVertically
     ) {

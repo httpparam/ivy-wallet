@@ -144,22 +144,6 @@ class CustomerJourneyCardsProvider @Inject constructor(
       }
     )
 
-    fun rateUsCard() = CustomerJourneyCardModel(
-      id = "rate_us",
-      condition = { trnCount, _, _, _ ->
-        trnCount >= 10
-      },
-      title = stringRes(R.string.review_ivy_wallet),
-      description = stringRes(R.string.review_ivy_wallet_description),
-      cta = stringRes(R.string.rate_us_on_google_play),
-      ctaIcon = R.drawable.ic_custom_star_s,
-      background = Gradient.solid(Green),
-      hasDismiss = true,
-      onAction = { _, _, ivyActivity ->
-        ivyActivity.reviewIvyWallet(dismissReviewCard = true)
-      }
-    )
-
     @Suppress("MaxLineLength", "NoImplicitFunctionReturnType")
     private fun voteCard() = CustomerJourneyCardModel(
       id = "vote_card",
@@ -172,7 +156,7 @@ class CustomerJourneyCardsProvider @Inject constructor(
             !deps.pollRepository.hasVoted(PollId.PaidIvy)
       },
       title = "How much are you willing to pay for Ivy Wallet?",
-      description = "Google Play requires us to update Ivy Wallet to target API level 35 (Android 15). We'd like to know if you will be interested to pay on a subscription basis so we can maintain the app.",
+      description = "We'd like to know if you will be interested to pay on a subscription basis so we can maintain the app.",
       cta = "Vote",
       ctaIcon = R.drawable.ic_telegram_24dp,
       hasDismiss = false,
