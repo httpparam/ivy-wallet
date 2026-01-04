@@ -9,7 +9,7 @@ on:
 jobs:
   github_release:
     if: |
-      contains(github.event.head_commit.message, 'Automatic release') || github.event_name == 'workflow_dispatch'
+      contains(github.event.head_commit.message, 'Demos:') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -36,9 +36,11 @@ jobs:
           VERSION_NAME=$(grep 'version-name =' gradle/libs.versions.toml | awk -F'=' '{print $2}' | tr -d ' "')
           VERSION_CODE=$(grep 'version-code =' gradle/libs.versions.toml | awk -F'=' '{print $2}' | tr -d ' "')
           TAG_NAME="v$VERSION_NAME-$VERSION_CODE"
+          RELEASE_DATE=$(date +'%Y-%m-%d')
           echo "VERSION_NAME=$VERSION_NAME" >> $GITHUB_ENV
           echo "VERSION_CODE=$VERSION_CODE" >> $GITHUB_ENV
           echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
+          echo "RELEASE_DATE=$RELEASE_DATE" >> $GITHUB_ENV
 
       - name: Set up Git
         run: |
@@ -77,12 +79,14 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ env.TAG_NAME }}
-          name: Release ${{ env.TAG_NAME }}
+          name: Demos ${{ env.TAG_NAME }} - ${{ env.RELEASE_DATE }}
           body: |
             ${{ steps.changelog.outputs.changelog }}
             
             ## Download
-            Download the APK from the assets below.
+            Download the Demo APK from the assets below.
+            
+            **Release Date:** ${{ env.RELEASE_DATE }}
           draft: false
           prerelease: false
           files: app/build/outputs/apk/demo/app-demo.apk
