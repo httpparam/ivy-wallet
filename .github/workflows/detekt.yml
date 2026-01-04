@@ -1,10 +1,12 @@
 name: Detekt
 
+# DISABLED - Solo maintenance mode. Run manually when needed.
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  workflow_dispatch:  # Manual trigger only
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
 
 jobs:
   detekt:
