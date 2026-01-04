@@ -247,7 +247,6 @@
     <string name="hide_income">Nascondi entrate</string>
     <string name="hide_income_description">Fai clic sulle entrate nascoste per visualizzarle per 5s</string>
     <string name="other">Altro</string>
-    <string name="rate_us_on_google_play">Valutaci su Google Play</string>
     <string name="share_ivy_wallet">Condividi Ivy Wallet</string>
     <string name="product">Prodotto</string>
     <string name="danger_zone">Zona pericolosa</string>
@@ -393,9 +392,9 @@
     <string name="share_with_friends">Condividi con gli amici</string>
     <string name="make_a_report_description">Puoi generare dei resoconti per ottenere un\'analisi approfondita delle tue entrate e delle tue uscite. Filtra le tue transazioni per tipo, periodo di tempo, categoria, conto, parole chiave e non solo per ottenere una vista migliore sulle tue finanze.</string>
     <string name="make_a_report">Crea un report</string>
-    <string name="make_ivy_wallet_better_description">Vuoi rendere migliore Ivy Wallet? Scrivici una recensione. Questo, per noi, è l\'unico modo di sviluppare quello che vuoi e che ti serve. Inoltre ci aiuta a ottenere una posizione migliore nel PlayStore così da poter investire sul prodotto pittosto che sul marketing.\n\nFacciamo del nostro meglio.\nIvy Team</string>
+    <string name="make_ivy_wallet_better_description">Vuoi rendere migliore Ivy Wallet? Scrivici una recensione. Questo, per noi, è l\'unico modo di sviluppare quello che vuoi e che ti serve. Inoltre ci aiuta a ottenere una posizione migliore nel our repository così da poter investire sul prodotto pittosto che sul marketing.\n\nFacciamo del nostro meglio.\nIvy Team</string>
     <string name="we_need_your_help">Abbiamo bisogno del tuo aiuto!</string>
-    <string name="we_need_your_help_description">Siamo solo un designer e uno sviluppatore che lavorano sull\'app dopo i nostri 9–5 lavori. Attualmente, investiamo molto tempo e denaro per generare solo perdite e sfinimento. Se vuoi che continuiamo a sviluppare Ivy Wallet per favore condividilo con amici e familiari.\n\nP.S. Le recensioni sul Google PlayStore aiutano molto!</string>
+    <string name="we_need_your_help_description">Siamo solo un designer e uno sviluppatore che lavorano sull\'app dopo i nostri 9–5 lavori. Attualmente, investiamo molto tempo e denaro per generare solo perdite e sfinimento. Se vuoi che continuiamo a sviluppare Ivy Wallet per favore condividilo con amici e familiari.\n\nP.S. Le recensioni sul our repository aiutano molto!</string>
     <string name="ivy_wallet_is_opensource">Ivy Wallet è open-source!</string>
     <string name="ivy_wallet_is_opensource_description">Il codice di Ivy Wallet è aperto e tutti possono vederlo. Crediamo che la trasparenza e l\'etica siano fondamentali per ogni prodotto software. Se ti piace il nostro lavoro e vuoi migliorare l\'app, puoi contribuire nel nostro repository pubblico su Github.</string>
     <string name="contribute">Contribuisci</string>

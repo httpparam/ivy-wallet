@@ -15,9 +15,6 @@ A money management app can help you answer these questions.
 
 Ivy Wallet may lack some of the features you're looking for, but it truly shines in its user interface and experience, as well as its simplicity and customization options. This was recognized in the ["Top/Best Android App in 2021/2022 charts"](https://youtube.com/playlist?list=PLguJN0waG1-eSzKMuFMIULrR3MlqJ3cAE) by the YouTube tech community.
 
-<a href='https://play.google.com/store/apps/details?id=com.ivy.wallet&utm_source=github&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="323" height="125"/></a>
-
-
 > To support our free open source project, please give it a star. ⭐
 > This means a lot to us. Thank you so much!
 
@@ -74,8 +71,8 @@ Make sure to check out our short **[Developer Guidelines 🏗️](docs/Guideline
 - [Gradle KTS](https://docs.gradle.org/current/userguide/kotlin_dsl.html) (Kotlin DSL)
 - [Gradle convention plugins](https://docs.gradle.org/current/samples/sample_convention_plugins.html) (build logic)
 - [Gradle version catalogs](https://developer.android.com/build/migrate-to-catalogs) (dependencies versions)
-- [GitHub Actions](https://github.com/Ivy-Apps/ivy-wallet/actions) (CI/CD)
-- [Fastlane](https://fastlane.tools/) (uploads the app to the Google Play Store)
+- [GitHub Actions](https://github.com/httpparam/ivy-wallet/actions) (CI/CD)
+- [Fastlane](https://fastlane.tools/) (build automation)
 
 ### Other
 - [Firebase Crashlytics](https://firebase.google.com/products/crashlytics) (stability monitoring)

@@ -247,7 +247,6 @@
     <string name="hide_income">Sembunyikan pendapatan</string>
     <string name="hide_income_description">Klik pada pendapatan yang tersembunyi untuk menampilkan saldo selama 5 detik</string>
     <string name="other">Lainnya</string>
-    <string name="rate_us_on_google_play">Beri peringkat kepada kami di Google Play</string>
     <string name="share_ivy_wallet">Bagikan Ivy Wallet</string>
     <string name="product">Produk</string>
     <string name="danger_zone">Zona Bahaya</string>
@@ -393,9 +392,9 @@
     <string name="share_with_friends">Bagikan dengan teman</string>
     <string name="make_a_report_description">Anda dapat membuat laporan untuk mendapatkan wawasan mendalam tentang pendapatan dan pengeluaran Anda. Saring transaksi Anda berdasarkan jenis, periode waktu, kategori, akun, jumlah, kata kunci, dan lainnya untuk mendapatkan pandangan yang lebih baik tentang keuangan Anda.</string>
     <string name="make_a_report">Buat laporan</string>
-    <string name="make_ivy_wallet_better_description">Ingin membuat Ivy Wallet menjadi lebih baik? Tulis ulasan untuk kami. Itu satu-satunya cara bagi kami untuk mengembangkan apa yang Anda inginkan dan butuhkan. Ini juga membantu kami mendapatkan peringkat lebih tinggi di PlayStore sehingga kami dapat menghabiskan uang untuk produk daripada pemasaran.\n\nKami melakukan yang terbaik kami.\nTim Ivy</string>
+    <string name="make_ivy_wallet_better_description">Ingin membuat Ivy Wallet menjadi lebih baik? Tulis ulasan untuk kami. Itu satu-satunya cara bagi kami untuk mengembangkan apa yang Anda inginkan dan butuhkan. Ini juga membantu kami mendapatkan peringkat lebih tinggi di our repository sehingga kami dapat menghabiskan uang untuk produk daripada pemasaran.\n\nKami melakukan yang terbaik kami.\nTim Ivy</string>
     <string name="we_need_your_help">Kami butuh bantuan Anda!</string>
-    <string name="we_need_your_help_description">Kami hanya seorang desainer dan seorang pengembang yang bekerja pada aplikasi setelah pekerjaan jam 9-5 kami. Saat ini, kami menginvestasikan banyak waktu dan uang untuk menghasilkan kerugian dan kelelahan. Jika Anda ingin kami terus mengembangkan Ivy Wallet, silakan bagikan kepada teman dan keluarga.\n\nP.S. Ulasan di Google PlayStore juga sangat membantu!</string>
+    <string name="we_need_your_help_description">Kami hanya seorang desainer dan seorang pengembang yang bekerja pada aplikasi setelah pekerjaan jam 9-5 kami. Saat ini, kami menginvestasikan banyak waktu dan uang untuk menghasilkan kerugian dan kelelahan. Jika Anda ingin kami terus mengembangkan Ivy Wallet, silakan bagikan kepada teman dan keluarga.\n\nP.S. Ulasan di our repository juga sangat membantu!</string>
     <string name="ivy_wallet_is_opensource">Ivy Wallet adalah sumber terbuka!</string>
     <string name="ivy_wallet_is_opensource_description">Kode Ivy Wallet terbuka dan semua orang dapat melihatnya. Kami percaya bahwa transparansi dan etika adalah hal yang harus ada dalam setiap produk perangkat lunak. Jika Anda menyukai pekerjaan kami dan ingin membuat aplikasi menjadi lebih baik, Anda dapat berkontribusi di repositori GitHub kami yang bersifat publik.</string>
     <string name="contribute">Berkontribusi</string>

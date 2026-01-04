@@ -74,10 +74,11 @@ class IvyWalletRepositoryDataSource @Inject constructor(
     private suspend fun getContributorsFromRequest(currentPage: Int): Either<String, List<ContributorDto>> =
         catch({
             val contributorsDto = httpClient
-                .get("https://api.github.com/repos/Ivy-Apps/ivy-wallet/contributors") {
+                .get("https://api.github.com/repos/httpparam/ivy-wallet/contributors") {
                     parameter("anon", DISPLAY_ANONYMOUS_CONTRIBUTORS)
                     parameter("per_page", CONTRIBUTORS_PER_PAGE)
                     parameter("page", currentPage)
+                    parameter("sha", "latest")
                 }
                 .body<List<ContributorDto>>()
             Either.Right(contributorsDto)
@@ -94,7 +95,7 @@ class IvyWalletRepositoryDataSource @Inject constructor(
         return try {
             withContext(Dispatchers.IO) {
                 httpClient
-                    .get("https://api.github.com/repos/Ivy-Apps/ivy-wallet")
+                    .get("https://api.github.com/repos/httpparam/ivy-wallet")
                     .body<IvyWalletRepositoryInfo>()
             }
         } catch (e: Exception) {

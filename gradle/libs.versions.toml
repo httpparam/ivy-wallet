@@ -33,7 +33,6 @@ kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", v
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 kotlin-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin-coroutines" }
 kotlin-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin-coroutines" }
-kotlin-coroutines-googleplay-temp = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-play-services", version.ref = "kotlin-coroutines" }
 kotlinx-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinx-collections" }
 
 # KotlinX Serialization
@@ -105,9 +104,6 @@ hilt-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", 
 
 # Google
 google-services-plugin = { module = "com.google.gms:google-services", version = "4.4.2" }
-google-play-update = { module = "com.google.android.play:app-update", version = "2.1.0" }
-google-play-services = { module = "com.google.android.gms:play-services-tasks", version = "18.2.0" }
-google-play-review = { module = "com.google.android.play:review-ktx", version = "2.0.1" }
 firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics", version = "19.0.3" }
 firebase-crashlytics-gradle-plugin = { module = "com.google.firebase:firebase-crashlytics-gradle", version = "3.0.2" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore", version = "25.1.4" }
@@ -155,7 +151,6 @@ kotlin = [
 ]
 kotlin-android = [
     "kotlin-coroutines-android",
-    "kotlin-coroutines-googleplay-temp",
 ]
 arrow = [
     "arrowkt-core",
@@ -210,11 +205,7 @@ glance = [
     "glance-appwidget",
     "glance-material3"
 ]
-google = [
-    "google-play-update",
-    "google-play-services",
-    "google-play-review"
-]
+google = []
 firebase = [
     "firebase-crashlytics"
 ]
